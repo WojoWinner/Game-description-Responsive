@@ -1,0 +1,33 @@
+body
+{
+	background-color:#666666;
+}
+div
+{
+	color:white;
+}
+.col-sm-6 img
+{
+	height:auto;
+	width:75%;
+	background-color:gray;
+}
+.col-sm-12 img
+{
+	height:auto;
+	width:50%;
+	background-color:gray;
+}
+figure
+{
+	text-align:center;
+}
+figcaption
+{
+	font-size:25px;
+	color:gold;
+}
+.navbar
+{
+	min-height:57px;
+}
