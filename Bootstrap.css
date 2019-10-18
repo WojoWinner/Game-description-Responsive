@@ -31,3 +31,12 @@ figcaption
 {
 	min-height:57px;
 }
+.dropdown-item:hover
+{
+	background-color:gold;
+	color:white;
+}
+.hover:hover
+{
+	filter: drop-shadow(1px 1px 10px gold);
+}
