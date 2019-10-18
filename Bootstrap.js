@@ -10,6 +10,12 @@ function search()
 		+'<img src="img/'+c+'.png" width="25px" height="25px">'+c+'</div>'+'</body>'+'</a>';
 		document.write(z);
 	}
+	else if(c=="")
+	{
+		let a="Najpierw musisz coś wpisać";
+		document.getElementById("form").style.color="red";
+		document.getElementById("form").value=a;
+	}
 	else
 	{
 		document.write(x);
