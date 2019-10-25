@@ -8,14 +8,14 @@
  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" style="text/css" href="Bootstrap.css">
 </head>
-<body>
+<body class="Night" >
 <header>
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
 
 <a href="Bootstrap.html" class="navbar-brand"><img src="img/Pandalogo.png" width="25" height="25" alt="" class="d-inline-block mr-1 align-bottom">Panda.S.A.pl</a>
 
 
-<button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" 
+<button class="navbar-toggler order-first"  type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" 
 aria-label="Przełącznik nawigacyjny"><span class="navbar-toggler-icon"></span></button>
 <div class="collapse navbar-collapse" id="mainmenu">
 
@@ -30,7 +30,7 @@ aria-label="Przełącznik nawigacyjny"><span class="navbar-toggler-icon"></span>
 
 <div class="dropdown-menu" aria-labelledby="submenu">
 
-<a class="dropdown-item" href="Twokatanas.html">Two katanas</a>
+<a class="dropdown-item"  href="Twokatanas.html">Two katanas</a>
 <a class="dropdown-item" href="Mochi.html">Mochi</a>
 
 <div class="dropdown-divider"></div>
@@ -53,6 +53,8 @@ aria-label="Przełącznik nawigacyjny"><span class="navbar-toggler-icon"></span>
 
 </ul>
 <form class="form-inline">
+<button type="button" class="btn btn-outline-warning mr-1" id="day" onclick="Day();return false;">Day</button>
+<button type="button" class="btn btn-outline-info mr-5" id="night" onclick="Night();return false;">Night</button>
 <input class="form-control mr-1"  id="form" type="text" pleaceholder="Search"aria-label="Search" value=""><button class="btn btn-light"type="submit" onclick="search();return false">Search</button>
 </form>
 </div>
@@ -66,8 +68,8 @@ aria-label="Przełącznik nawigacyjny"><span class="navbar-toggler-icon"></span>
 
 <div class="col-sm-12">
 <figure>
-<img src="img/Panda.png" >
-<figcaption>
+<img src="img/Panda.png" class="Pictures">
+<figcaption class="Dayy Nightt">
 This "Panda" is the  strongest beast of the world. He is immune and he can't be trafficked by his enemies. The Lord of Pigs "Pan Paskuda"tried to destroy him,but failed.<!--OpisLegiera-->
 and The "Panda" changed him into pizza and he ate  him.
 </figcaption>
@@ -76,8 +78,8 @@ and The "Panda" changed him into pizza and he ate  him.
 
 <div class="col-sm-6 col-md-4 " >
 <figure>
-<img src="img/Pizza.png" >
-<figcaption>
+<img src="img/Pizza.png" class="Pictures">
+<figcaption class="Dayy Nightt">
 The favorite food of this Panda is pizza. This is probably why he has the habit of turning his opponents into pizza and eating them.<!--OpisLegiera4-->
 </figcaption>
 </figure>
@@ -85,8 +87,8 @@ The favorite food of this Panda is pizza. This is probably why he has the habit 
 
 <div class="col-sm-6 col-md-4 ">
 <figure>
-<img src="img/Funny.png" >
-<figcaption>
+<img src="img/Funny.png" class="Pictures">
+<figcaption class="Dayy Nightt">
 This Panda thinks that there's no worthy opponent in this world, maybe that's why he is not in a hurry to choose a katana and does it in very different and strange positions.<!--OpisLegiera3-->
 </figcaption>
 </figure>
@@ -94,8 +96,8 @@ This Panda thinks that there's no worthy opponent in this world, maybe that's wh
 
 <div class="col-sm-6 col-md-4 ">
 <figure>
-<img src="img/Strong.png" >
-<figcaption>
+<img src="img/Strong.png" class="Pictures">
+<figcaption class="Dayy Nightt">
 This panda has the habit of mocking opponents, maybe that's why every time he is attacked, he doesn't pay attention to them and flexes muscles.<!--OpisLegiera2-->
 </figcaption>
 </figure>
@@ -104,7 +106,7 @@ This panda has the habit of mocking opponents, maybe that's why every time he is
 </div>
 
 </div>
-<footer class="footer-copyright text-center text-muted bg-dark py-3">
+<footer class="footer footer-copyright text-center text-muted bg-dark py-3">
 © 2019 Copyright:
 
 <b>Mateusz Wójcik</b>

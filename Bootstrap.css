@@ -2,6 +2,36 @@ body
 {
 	background-color:#666666;
 }
+.Day
+{
+	background-color:white !important;
+}
+.Dhov
+{
+	color:black !important;
+}
+.Dhov:hover
+{
+	background-color:gold !important;
+	color:white !important;
+}
+.Nhov
+{
+	color:cyan !important;
+}
+.Nhov:hover
+{
+	background-color:cyan !important;
+	color:gray !important;
+}
+.hoverDay:hover
+{
+	filter:drop-shadow(1px 1px 10px gold) !important;
+}
+.hoverNight:hover
+{
+	filter:drop-shadow(1px 1px 10px cyan) !important;
+}
 div
 {
 	color:white;
@@ -25,18 +55,26 @@ figure
 figcaption
 {
 	font-size:25px;
-	color:gold;
+	color:cyan;
 }
 .navbar
 {
 	min-height:57px;
 }
+.dropdown-menu 
+{
+	background-color:gray;
+}
+.dropdown-item
+{
+	color:cyan;
+}
 .dropdown-item:hover
 {
-	background-color:gold;
-	color:white;
+	background-color:cyan;
+	color:gray;
 }
 .hover:hover
 {
-	filter: drop-shadow(1px 1px 10px gold);
+	filter: drop-shadow(1px 1px 10px cyan);
 }
